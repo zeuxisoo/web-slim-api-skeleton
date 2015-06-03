@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set("Asia/Hong_Kong");
+
 use Phpmig\Adapter;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
