@@ -1,0 +1,31 @@
+<?php
+return [
+    'debug'      => true,
+
+    'databases' => [
+        'default' => [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'username'  => 'root',
+            'password'  => '',
+            'database'  => 'ggd_api',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_general_ci',
+            'prefix'    => 'ggd_',
+        ]
+    ],
+
+    'cookie' => [
+        'life_time'  => '20 minutes',
+        'path'       => '/',
+        'domain'     => null,
+        'secure'     => false,
+        'httponly'   => false,
+        'secret_key' => 'Your Key Here',
+    ],
+
+    'remember' => [
+        'name'      => 'remember_token',
+        'life_time' => 315360000
+    ],
+];
